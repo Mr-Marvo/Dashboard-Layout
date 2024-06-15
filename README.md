@@ -15,6 +15,7 @@ Quick stater Admin Dashboard Template developed using Ant Design components. Des
 > Beautifull settings page
 > Kanban View
 > Login page
+> Scroll pagination
 
 [Live Preview](https://modern-dashboard-template.netlify.app/)
 
