@@ -22,6 +22,7 @@ function App() {
     getPushToken(setToken);
   });
 
+  // Uncomment this for in-app toast for firebase push
   // onMessageListener()
   //   .then((payload) => {
   //     openNotification(

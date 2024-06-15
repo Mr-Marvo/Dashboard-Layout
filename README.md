@@ -1,4 +1,4 @@
-## Ant Design Dashboard
+## Modern Dashboard Design
 
 > Free React Admin Dashboard made with Ant Design components and React.
 
@@ -35,6 +35,23 @@ You can clone my repo and play with it as needed. Remember to give a Start and F
   npm install            # Download packages
   npm run dev            # Run the dev server
 ```
+
+## First Run Guide
+
+```bash
+
+    # When you hit npm run dev, It will throw an error as
+
+    FirebaseError: Installations: Missing App configuration value: "projectId" (installations/missing-app-config-values).
+
+    # Steps to fix
+    1. Go to firebase.js in parent directory and paste your firebase config.
+    2. Replace your VAPID KEY with `YOUR_VAPID_KEY`.
+    3. Go tp firebase-messaging-sw.js in public folder and paste your firebase config here.
+    4. All done. Now you can send demo notification from firebase console.
+
+```
+
 
 ## Making Changes
 
