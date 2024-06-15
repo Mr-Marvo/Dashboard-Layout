@@ -1,0 +1,7 @@
+.signin-Bgtop {
+  @apply absolute top-0 left-0 w-80 h-auto md:w-[400px] lg:w-[500px] xl:w-[600px];
+}
+
+.signin-Bgbottom {
+  @apply absolute bottom-0 right-0 w-[200px] md:w-[210px] lg:w-[230px] xl:w-[250px];
+}

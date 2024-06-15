@@ -1,0 +1,12 @@
+.mobile-drawer-select {
+  @apply h-9 w-[266px];
+}
+.color-gradient {
+  @apply bg-gradient-to-r from-[#43B0FF] to-[#67FF31];
+}
+.drawer-button {
+  @apply flex flex-row justify-start items-center text-xs font-semibold h-9 w-[266px];
+}
+.flex-row-center {
+  @apply flex flex-row justify-center items-center;
+}

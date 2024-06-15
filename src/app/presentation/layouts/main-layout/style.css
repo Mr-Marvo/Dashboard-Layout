@@ -1,0 +1,42 @@
+.main-layout {
+  @apply w-full max-w-[100vw] min-h-screen max-h-screen flex flex-col;
+}
+.dashboard-header-container {
+  @apply w-full h-[60px] px-4 flex flex-row justify-between items-center fixed border-b;
+}
+.dashboard-container {
+  @apply w-full pt-[60px] flex-1;
+}
+.header-logo {
+  @apply h-10 w-fit flex items-center justify-start;
+}
+.header-button-container {
+  @apply h-full w-fit  hidden md:flex flex-row justify-center items-center lg:gap-4 gap-2;
+}
+.header-button {
+  @apply hidden md:flex flex-row justify-center items-center text-xs md:text-sm font-semibold h-9 lg:w-36 w-28;
+}
+.header-profile-container {
+  @apply flex flex-row justify-end items-center gap-4 p-2;
+}
+.header-company-select {
+  @apply h-9 lg:w-64 w-40 hidden md:flex;
+}
+.header-profile {
+  @apply w-[270px] h-[348px] flex flex-col items-center justify-start;
+}
+
+/* -----------------common css start----------------- */
+.flex-row-center {
+  @apply flex flex-row justify-center items-center;
+}
+.flex-col-center {
+  @apply flex flex-col justify-center items-center;
+}
+.red-border {
+  @apply border border-red-500;
+}
+.color-gradient {
+  @apply bg-gradient-to-r from-[#43B0FF] to-[#67FF31];
+}
+/* -----------------common css end----------------- */
