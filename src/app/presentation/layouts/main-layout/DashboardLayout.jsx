@@ -42,7 +42,9 @@ export default function DashboardLayout() {
     setOpenDrawer(false);
   };
 
-  const handleLogOutUser = async () => {};
+  const handleLogOutUser = async () => {
+    navigate('/login')
+  };
 
   const handleThemeChange = async (e) => {
     if (e) {
