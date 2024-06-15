@@ -9,6 +9,8 @@
 Quick stater Admin Dashboard Template developed using Ant Design components. Design and Developed by Mr.Marvo.
 
 ## Features
+```bash
+
 > Mobile Responsive top navbar
 > Profile Dropdown
 > Dark Mode and Light Mode theme switcher
@@ -16,6 +18,7 @@ Quick stater Admin Dashboard Template developed using Ant Design components. Des
 > Kanban View
 > Login page
 > Scroll pagination
+```
 
 [Live Preview](https://modern-dashboard-template.netlify.app/)
 
